@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #A1B3C3;
+    color: #FCF9F8;
+}
+
+/*navbar*/
+
+nav {
+    display: flex;
+    background-color: rgba(150, 149, 149, 65%)
+}
+
+
+.logonav {
+    max-height: 125px;
+    margin-left: 10%;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 415px;
+    max-height: 36px;
+    background-color: #D9D9D9;
+    color: #646464;
+    display: flex;
+    align-items: center;
+    border-radius: 70px;
+    padding: 10px 20px;
+    margin-top: 5%;
+}
+
+.search-bar > input {
+    background: none;
+    outline: none;
+    border: 0;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.main-nav {
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.main-nav > ul {
+    margin-top: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.main-nav > ul > li > a  {
+    color: #1B203D;
+    text-decoration: none; 
+    font-size: 30px;
+    font-weight: bolder; 
+}
+
+.main-nav li:hover {
+    text-decoration: underline;
+    background-color: rgba(150, 149, 149, 45%);
+    border-radius: 10%;
+    color: #1B203D;
+}
+
+
+.login {
+    margin-left: 15%;
+    margin-top: 1%;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1B203D;
+}
+
+.login > li > a {
+    color: #1B203D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login img {
+    height: 20px;
+}
+
+
+
+
+
+
+/*body sections*/
+
+main {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-inline: 13%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+}
+
+
+.contact-text {
+    border-radius: 20px;
+    font-size: 30px;
+    margin-inline: 13%;
+    background-color: #646B7E;
+    padding: 2%;
+}
+
+
+.mainlogo {
+    height: 200px;
+}
+
+
+
+form > h1 {
+    font-size: 45px;
+}
+
+label {
+    display: block;
+    color: #FCF9F8;
+    font-size: 30px;
+}
+
+input {
+    background-color: #FCF9F8;
+    color: #D2D2D2;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+textarea {
+    background-color: #FCF9F8;
+    color: #D2D2D2;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    max-width: 351px;
+    max-height: 67px;
+    background-color: #D9D9D9;
+    color: #05316B;
+    border-radius: 10px;
+    font-size: 25px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*footer and lowbar*/
+
+footer {
+    display: flex;
+    height: 384px;
+    background-color: #646B7E;
+    color: #FCF9F8;
+    font-size: 35px;
+    align-items: center;
+    gap: 8%;
+}
+
+
+footer > .foot-ul > .foot-ul-li {
+    list-style: none;
+    color: #FCF9F8;
+}
+
+footer > .foot-ul > .foot-ul-li > a {
+    color: #FCF9F8;
+}
+
+footer > .foot-ul > .foot-ul-h2 {
+    list-style: none;
+    font-weight: bolder;
+
+}
+
+.logofoot {
+    max-height: 223px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.low-bar {
+    background-color: #FCF9F8;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #1B203D;
+    justify-content: space-between;
+}
+
+.low-bar > h3 {
+    margin-right: 5%;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.face-logo {
+    width: 57px;
+    height: 55px;
+
+}
+
+.yt-logo {
+    width: 55px;
+    height: 55px;
+}
+
+.insta-logo {
+    width: 57px;
+    height: 55px;
+}
+
+.icons {
+    margin-left: 50%;
+}
+
+
+
+
+
+/* media */
+
+@media (min-width: 769px) and (max-width: 1400px) {
+
+    .logonav {
+        max-height: 130px;
+        margin-left: 5%;
+        margin-top: 0,5%;
+        cursor: pointer;
+    }
+
+    .main-nav {
+        margin-left: 15%;
+        margin-top: 1%;
+    }
+    
+    .main-nav > ul {
+        font-size: 25px;
+    }
+    
+    .search-bar {
+        width: 100%;
+        background-color: #D9D9D9;
+        color: #646464;
+        border-radius: 20px;
+    }
+    
+    .search-bar > input {
+        font-size: 20px;
+    }
+    
+    
+    .login {
+        margin-left: 5%;
+        font-size: 25px;
+    }
+    
+    
+    .login img {
+        height: 20px;
+    }
+    
+    
+
+
+
+
+    footer {
+        height: 250px;
+        gap: 3%;
+        font-size: 35px;
+    }
+    
+    
+    footer > .foot-ul > .foot-ul-li {
+        font-size: 25px;  
+    }
+    
+
+    .logofoot{
+        max-height: 175px;
+        padding-left: 1%;
+
+    }
+
+    .low-bar {
+        height: 40px;
+    }
+    
+    .low-bar > h3 {
+        margin-right: 0;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .icons {
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+
+    .face-logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .yt-logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .insta-logo {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+    .logonav {
+        max-height: 90px;
+        max-width: 130px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .main-nav {
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+
+    .search-bar {
+        max-height: 10%;
+        max-width: 60%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .search-bar > input {
+        font-size: 18px;
+    }
+
+    .search-icon {
+        height: 60%;
+    }
+
+    
+    .main-nav > ul {
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight:800; 
+        margin-left: -5%;      
+    }
+    
+    .main-nav > ul > li > a  {
+        font-size: 20px;
+    }
+    
+
+    .login {
+        margin-left: -10%;
+        display: flex;
+        gap: 5px;
+        font-size: 20px;
+    }
+    
+    .login > li > a {
+        color: #1B203D;
+        font-weight: bold;
+    }
+    
+    .login img {
+        height: 15px;
+    }
+
+    main {
+        margin-inline: 3%;
+    }
+    
+    .contact-text {
+        margin-inline: 4%;
+    }
+    
+    .mainlogo {
+        height: 150px;
+    }
+    
+    form > h1 {
+        font-size: 35px;
+    }
+    
+    label {
+        font-size: 25px;
+    }
+    
+    input {
+        font-size: 25px;
+    }
+    
+    textarea {
+        font-size: 20px;
+    }
+    
+    button {
+        font-size: 20px;
+        max-width: 240px;
+    }
+
+ 
+
+    footer {
+        height: 200px;
+        background-color: #646B7E;
+        gap: 0%;
+        color: #FCF9F8;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    
+    
+    footer > .foot-ul > .foot-ul-li {
+        font-size: 18px;
+        
+    }
+    
+    footer > .foot-ul > .foot-ul-h2 {
+        font: weight 5px;
+    
+    }
+
+    .logofoot{
+        max-height: 90px;
+        padding-left: 2,5%;
+        padding-top: 0%;
+        cursor: pointer;
+    }
+
+    .low-bar {
+        height: 25px;
+    }
+    
+    .low-bar > h3 {
+        margin-right: 0;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .icons {
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+
+    .face-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .yt-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .insta-logo {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+    nav {
+        display: flex;
+        background-color: rgba(150, 149, 149, 65%);
+        gap: 5%;
+    }
+
+    .logonav {
+        max-height: 60px;
+        max-width: 90px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .search-bar {
+        max-height: 20%;
+        max-width: 40%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .search-bar > input {
+        font-size: 18px;
+    }
+
+    .search-icon {
+        height: 50%;
+    }
+
+
+    .main-nav > ul {
+        display: none;
+    }
+
+
+    .login {
+        display: none;
+    }
+    
+
+    main {
+        margin-inline: 3%;
+    }
+    
+    .contact-text {
+        margin-inline: 4%;
+    }
+    
+    .mainlogo {
+        height: 150px;
+    }
+    
+    form > h1 {
+        font-size: 35px;
+    }
+    
+    label {
+        font-size: 25px;
+    }
+    
+    input {
+        font-size: 25px;
+    }
+    
+    textarea {
+        font-size: 20px;
+    }
+    
+    button {
+        font-size: 20px;
+        max-width: 240px;
+    }
+
+
+
+    footer {
+        height: 200px;
+        background-color: #646B7E;
+        gap: 0%;
+        color: #FCF9F8;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    
+    
+    footer > .foot-ul > .foot-ul-li {
+        font-size: 18px;
+        
+    }
+    
+    footer > .foot-ul > .foot-ul-h2 {
+        list-style: none;
+        font: weight 5px;
+    
+    }
+
+    .logofoot{
+        max-height: 90px;
+        padding-left: 2,5%;
+        padding-top: 0%;
+        cursor: pointer;
+    }
+
+    .low-bar {
+        height: 25px;
+    }
+    
+    .low-bar > h3 {
+        margin-right: 0;
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    .icons {
+        margin-left: 50%;
+        margin-top: 1%;
+    }
+
+    .face-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .yt-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .insta-logo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+}
+
+
+
+
