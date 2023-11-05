@@ -461,6 +461,8 @@ footer > .foot-ul > .foot-ul-h2 {
         width: 80%;
     }
 
+
+
     footer {
         height: 250px;
         gap: 3%;
@@ -666,6 +668,8 @@ footer > .foot-ul > .foot-ul-h2 {
         width: 70%;
     }
 
+    
+
     footer {
         height: 180px;
         background-color: #646B7E;
@@ -752,10 +756,10 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .search-bar {
         max-height: 5%;
-        max-width: 40%;
+        max-width: 60%;
         margin-top: 2%;
         margin-bottom: 0;
-        margin-left: 25%;
+        margin-left: 30%;
         border-radius: 10px;
     }
 
@@ -889,11 +893,10 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     footer {
-        height: 150px;
-        gap: 0%;
+        height: 140px;
+        gap: 0;
         font-size: 15px;
     }
-    
     
     
     footer > .foot-ul > .foot-ul-li {
@@ -910,7 +913,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .logofoot{
         max-height: 60px;
-        padding-left: 1%;
+        padding-left: 0%;
         padding-top: 0%;
     }
 
@@ -925,7 +928,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .icons {
-        margin-left: 35%;
+        margin-left: 40%;
         margin-top: 1%;
     }
 

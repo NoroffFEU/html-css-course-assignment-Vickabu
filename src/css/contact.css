@@ -49,24 +49,25 @@ nav {
 }
 
 .main-nav {
-    margin-left: 25%;
+    align-items: center;
+    margin-left: 20%;
     margin-top: 1%;
 }
 
 .main-nav > ul {
     margin-top: 5px;
     font-size: 25px;
+    text-decoration: none;   
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .main-nav > ul > li > a  {
     color: #1B203D;
-    text-decoration: none; 
+    font-weight: bolder;
     font-size: 30px;
-    font-weight: bolder; 
 }
 
 .main-nav li:hover {
@@ -91,15 +92,11 @@ nav {
 .login > li > a {
     color: #1B203D;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .login img {
     height: 20px;
 }
-
-
-
 
 
 
@@ -250,6 +247,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (min-width: 769px) and (max-width: 1400px) {
 
+    
     .logonav {
         max-height: 130px;
         margin-left: 5%;
@@ -356,8 +354,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .main-nav {
-        align-items: center;
-        margin-left: 5%;
+        margin-left: 2%;
         margin-top: 1%;
     }
 
@@ -366,11 +363,11 @@ footer > .foot-ul > .foot-ul-h2 {
         max-width: 60%;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     .search-bar > input {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .search-icon {
@@ -379,22 +376,22 @@ footer > .foot-ul > .foot-ul-h2 {
 
     
     .main-nav > ul {
-        margin-top: 5px;
-        font-size: 20px;
+        margin-top: 0;
+        font-size: 18px;
         font-weight:800; 
         margin-left: -5%;      
     }
     
     .main-nav > ul > li > a  {
-        font-size: 20px;
+        font-size: 18px;
     }
     
 
     .login {
-        margin-left: -10%;
+        margin-left: -20%;
         display: flex;
         gap: 5px;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .login > li > a {
@@ -405,6 +402,9 @@ footer > .foot-ul > .foot-ul-h2 {
     .login img {
         height: 15px;
     }
+
+
+
 
     main {
         margin-inline: 3%;
@@ -442,29 +442,30 @@ footer > .foot-ul > .foot-ul-h2 {
  
 
     footer {
-        height: 200px;
+        height: 180px;
         background-color: #646B7E;
         gap: 0%;
         color: #FCF9F8;
-        font-size: 20px;
+        font-size: 15px;
         align-items: center;
     }
     
     
     
     footer > .foot-ul > .foot-ul-li {
-        font-size: 18px;
+        font-size: 15px;
         
     }
     
     footer > .foot-ul > .foot-ul-h2 {
         font: weight 5px;
+        font-size: 15px;
     
     }
 
     .logofoot{
-        max-height: 90px;
-        padding-left: 2,5%;
+        max-height: 85px;
+        padding-left: 0;
         padding-top: 0%;
         cursor: pointer;
     }
@@ -480,7 +481,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .icons {
-        margin-left: 50%;
+        margin-left: 45%;
         margin-top: 1%;
     }
 
@@ -510,7 +511,7 @@ footer > .foot-ul > .foot-ul-h2 {
     nav {
         display: flex;
         background-color: rgba(150, 149, 149, 65%);
-        gap: 5%;
+        gap: 2%;
     }
 
     .logonav {
@@ -520,30 +521,53 @@ footer > .foot-ul > .foot-ul-h2 {
         margin-top: 5px;
     }
 
+
     .search-bar {
-        max-height: 20%;
-        max-width: 40%;
+        max-height: 5%;
+        max-width: 60%;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 0;
+        margin-left: 30%;
+        border-radius: 10px;
     }
 
     .search-bar > input {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .search-icon {
-        height: 50%;
+        height: 15px;
+    }
+
+    .main-nav {
+        margin-left: -5%;
     }
 
 
     .main-nav > ul {
-        display: none;
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight:800; 
+        margin-left: -5%;      
+    }
+    
+    .main-nav > ul > li > a  {
+        font-size: 15px;
     }
 
 
     .login {
-        display: none;
+        margin-left: -10%;
+        gap: 5px;
+        font-size: 10px;
     }
+
+    .login img {
+        height: 10px;
+    }
+
+
+
     
 
     main {
@@ -582,32 +606,28 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     footer {
-        height: 200px;
-        background-color: #646B7E;
-        gap: 0%;
-        color: #FCF9F8;
-        font-size: 20px;
-        align-items: center;
+        height: 140px;
+        gap: 0;
+        font-size: 15px;
     }
     
     
-    
     footer > .foot-ul > .foot-ul-li {
-        font-size: 18px;
+        font-size: 15px;
         
     }
     
     footer > .foot-ul > .foot-ul-h2 {
         list-style: none;
         font: weight 5px;
+        font-size: 15px;
     
     }
 
     .logofoot{
-        max-height: 90px;
-        padding-left: 2,5%;
+        max-height: 60px;
+        padding-left: 0%;
         padding-top: 0%;
-        cursor: pointer;
     }
 
     .low-bar {
@@ -621,7 +641,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .icons {
-        margin-left: 50%;
+        margin-left: 40%;
         margin-top: 1%;
     }
 
