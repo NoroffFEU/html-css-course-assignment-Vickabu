@@ -704,17 +704,17 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .product-cover {
-        height: 180px;
-        width: 120px;
+        height: 150px;
+        width: 90px;
     }
 
     .ad-to-wishlist, .shopping-bag {
-        height: 15px;
+        height: 10px;
 
     }
     
     .name-actions, a, p {
-        font-size: 15px;
+        font-size: 10px;
     }
     
     .outro-text {
