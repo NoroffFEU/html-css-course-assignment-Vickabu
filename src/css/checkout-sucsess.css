@@ -7,14 +7,6 @@ body {
     color: #D9D9D9;
 }
 
-header {
-    background: url('../../assets/images/banner-home.jpg');
-    background-repeat: no-repeat;
-    height: 100%;
-    height: 786px;
-    background-size: cover;
-    background-position: center;
-}
 
 nav {
     display: flex;
@@ -114,141 +106,9 @@ nav {
 
 
 
-
-
-
 /*body sections*/
 
-.featured {
-    position: relative;
-    padding: 15px;
-    margin-top: 3%;
-}
 
-.featreco {
-    padding: 0 10 vw;
-    font-size: 35px;
-    margin-left: 13%;
-}
-
-.product-slide {
-    padding: 0 10vw;
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    margin-inline: 13%;
-    margin-bottom: 5%;
-}
-
-.product-slide::-webkit-scrollbar {
-    width: 100%
-}
-
-.product-slide::-webkit-scrollbar-track {
-    background-color: rgba(150, 149, 149, 45%);
-    border-radius: 50px;
-}
-
-.product-slide::-webkit-scrollbar-thumb {
-    background-color: rgba(150, 149, 149, 70%);
-    border-radius: 50px;
-}
-
-.product-card-c {
-    grid-row: 2;
-    max-width: 250px;
-    height: 350px;
-    margin-right: 35px;
-}
-
-.product-img-c{
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-.circle-photo {
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-}
-
-
-.explore-frame {
-    text-align: center;
-    margin-inline: 10%;
-    margin-bottom: 5%;
-    font-size: 45px;
-}
-
-.explore-frame img {
-    height: 258px;
-    width: 517px;
-    border-radius: 20px;
-    object-fit: cover;
-    
-}
-
-
-.special {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-inline: 10%;
-    align-items: center;
-}
-
-.special-off {
-    font-size: 35px;
-    font-weight: lighter;
-    margin-bottom: 0;
-    margin-left: 2%;
-}
-
-.product-list {
-    padding: 0 10vw;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 620px;
-    gap: 5%;
-    
-}
-
-
-.product-card > h2, a{
-    text-align: center;
-    text-decoration: none;
-    color: #FCF9F8;
-    font-weight: lighter;
-    margin-top: 0;
-}
-
-.product-cover {
-    height: 451px;
-    width: 351px;
-    border-radius: 10px;
-}
-
-
-.buy-button {
-    width: 100%;
-    max-width: 351px;
-    max-height: 38px;
-    background-color: #D9D9D9;
-    color: #1b203d;
-    border-radius: 10px;
-    font-size: 25px;
-    border-style: none;
-    cursor: pointer;
-    
-}
-
-.buy-button:hover {
-    box-shadow: 0 0 15px rgba(150, 149, 149, 65%) inset;
-    border: 2px solid #4c5064;
-}
 
 
 
@@ -328,11 +188,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
 /* media */
 
-@media (min-width: 769px) and (max-width: 1400px) {
-    header {
-        height: auto;
-    }
-        
+@media (min-width: 769px) and (max-width: 1400px) {      
     
     .logonav {
         max-height: 130px;
@@ -372,94 +228,10 @@ footer > .foot-ul > .foot-ul-h2 {
         height: 20px;
     }
     
-    .banner-text {
-        color: #FCF9F8;
-        font-size: 20px;
-        margin-top: 10%;
-        padding: 2px;
-    }
+    
 
 
-    .circle-photo {
-        height: 200px;
-        width: 200px;
-    }
 
-    .featreco {
-        font-size: 30px;
-    }
-
-    .product-card-c {
-        height: 300px;
-        margin-right: 40px;
-    }
-
-    .explore-frame {
-        text-align: center;
-        margin-inline: 15%;
-        margin-bottom: 5%;
-        font-size: 35px;
-    }
-    
-    .explore-frame img {
-        height: 175px;
-        width: 300px;
-        border-radius: 15px;
-        
-    }
-    
-    .special > hr {
-        margin: 5%;
-    }
-
-    
-    .special {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    .special-off {
-        padding: 0 10 vw;
-        font-size: 25px;
-        font-weight: lighter;
-        margin-bottom: 1%;
-        margin-left: 10%;
-    }
-    
-    .product-list {
-        max-width: 1635px;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .product-card {
-        flex: 0 0 calc(50% - 25%);
-    }
-
-    
-    .product-card > h2, .product-card > a{
-        font-size: 25px;
-    }
-    
-    .product-cover {
-        height: 221px;
-        width: 185px;
-        border-radius: 5px;
-    }
-    
-    
-    .buy-button {
-        width: 165px;
-        height: auto;
-        border-radius: 10px;
-        font-size: 20px;
-    }
-
-    hr {
-        width: 80%;
-    }
 
     footer {
         height: 250px;
@@ -514,10 +286,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
 @media (min-width: 481px) and (max-width: 768px) {
-
-    header {
-        height: auto;
-    }
 
     .logonav {
         max-height: 90px;
@@ -577,95 +345,10 @@ footer > .foot-ul > .foot-ul-h2 {
         height: 15px;
     }
 
-    .banner-text {
-        font-size: 10px;
-        margin-top: 6%;
-        padding: 4%;
-    }
-
-
-    .circle-photo {
-        height: 150px;
-        width: 150px;
-
-    }
-
-    .featreco {
-        font-size: 25px;
-        margin-left: 5%;
-    }
-
-    .product-slide {
-        margin-inline: 5%;
-    }
-
-    .product-card-c {
-        height: 250px;
-        margin-right: 40px;
-    }
-
-    .explore-frame {
-        margin-inline: 2%;
-        margin-bottom: 2.5%;
-        font-size: 25px;
-    }
     
-    .explore-frame img {
-        height: 125px;
-        width: 250px;
-        border-radius: 15px;        
-    }
 
-    .special {
-        margin-top: 5%;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    .special-off {
-        padding: 0 10 vw;
-        font-size: medium;
-        font-weight: lighter;
-        margin-bottom: 0;
-        margin-left: 15%;
-    }
-    
-    .product-list {
-        padding: 0 10vw;
-        height: 620px;
-        max-width: 1635px;
-        flex-wrap: wrap;
-        text-align: center;
-    }
 
-    .product-card {
-        display: inline-block;
-        flex: 0 0 calc(50% - 2.5%);
-    }
 
-    
-    .product-card > h2, .product-card > a{
-        font-size: 20px;
-    }
-    
-    .product-cover {
-        height: 205px;
-        width: 165px;
-        border-radius: 5px;
-    }
-    
-    
-    .buy-button {
-        width: 165px;
-        height: auto;
-        border-radius: 10px;
-        font-size: 20px;
-    }
-
-    hr {
-        width: 70%;
-    }
 
     footer {
         height: 200px;
@@ -732,9 +415,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (max-width: 480px) {
 
-    header {
-        height: auto;
-    }
 
     nav {
         display: flex;
@@ -773,98 +453,11 @@ footer > .foot-ul > .foot-ul-h2 {
     .login {
         display: none;
     }
-
-    .banner-text {
-        font-size: 10px;
-
-    }
     
 
-    .circle-photo {
-        height: 150px;
-        width: 150px;
-
-    }
-
-    .featreco {
-        font-size: 20px;
-        margin-left: 5%;
-    }
-
-    .product-slide {
-        margin-inline: 5%;
-    }
-
-    .product-card-c {
-        height: 250px;
-        margin-right: 40px;
-    }
-
-
-    .explore-frame {
-        text-align: center;
-        margin-inline: 2%;
-        margin-bottom: 3%;
-        font-size: 15px;
-    }
     
-    .explore-frame img {
-        height: 100px;
-        width: 175px;
-        border-radius: 15px;
-        
-    }
-
-    .special {
-        margin-top: 5%;
-        margin-bottom: 0;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    
-    .special-off {
-        padding: 0 10 vw;
-        font-size: medium;
-        font-weight: lighter;
-        margin-bottom: 0;
-        margin-left: 5%;
-    }
-    
-    .product-list {
-        padding: 0 10vw;
-        height: 620px;
-        max-width: 1635px;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .product-card {
-        display: inline-block;
-        flex: 0 0 calc(50% - 2.5%);
-    }
 
     
-    .product-card > h2, .product-card > a{
-        font-size: 15px;
-    }
-    
-    .product-cover {
-        height: 121px;
-        width: 95px;
-        border-radius: 5px;
-    }
-    
-    
-    .buy-button {
-        width: 85px;
-        border-radius: 15px;
-        font-size: 15px;
-    }
-
-    hr {
-        width: 70%;
-    }
-
 
     footer {
         height: 200px;
@@ -878,21 +471,21 @@ footer > .foot-ul > .foot-ul-h2 {
     
     
     footer > .foot-ul > .foot-ul-li {
-        font-size: 15px;
+        font-size: 18px;
         
     }
     
     footer > .foot-ul > .foot-ul-h2 {
         list-style: none;
         font: weight 5px;
-        font-size: 15px;
     
     }
 
     .logofoot{
-        max-height: 60px;
-        padding-left: 1%;
+        max-height: 90px;
+        padding-left: 2,5%;
         padding-top: 0%;
+        cursor: pointer;
     }
 
     .low-bar {
