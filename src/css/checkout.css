@@ -528,7 +528,14 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
 
+    .method, .info, .cancel-button, .complete-button, #name, #email, #number, #date {
+        font-size: 15px;
+    }
 
+    
+    #date {
+        width: 60px;
+    }
 
 
 
