@@ -149,6 +149,7 @@ hr {
 
 .left-content-list {
     list-style: none;
+    
 }
 
 .left-content-list h3 {
@@ -348,7 +349,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .left-content {
         font-size: 25;
-        padding-right: 2%;
+        margin-left: 1%;
     }
 
     .product-cover {
@@ -511,6 +512,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .left-content {
         font-size: 20px;
+        margin-left: 0;
     }
 
     .product-cover {
@@ -695,7 +697,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .left-content {
         font-size: 15px;
-        padding-right: 4%;
+        margin-left: 0;
     }
 
     .left-content h2 {
