@@ -527,7 +527,6 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .main-nav {
-        align-items: center;
         margin-left: 2%;
         margin-top: 1%;
     }
@@ -550,19 +549,19 @@ footer > .foot-ul > .foot-ul-h2 {
 
     
     .main-nav > ul {
-        margin-top: 5px;
-        font-size: 20px;
+        margin-top: 0;
+        font-size: 18px;
         font-weight:800; 
         margin-left: -5%;      
     }
     
     .main-nav > ul > li > a  {
-        font-size: 20px;
+        font-size: 18px;
     }
     
 
     .login {
-        margin-left: -10%;
+        margin-left: -15%;
         display: flex;
         gap: 5px;
         font-size: 15px;
@@ -752,11 +751,11 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     .search-bar {
-        max-height: 10%;
+        max-height: 5%;
         max-width: 40%;
         margin-top: 2%;
         margin-bottom: 0;
-        margin-left: 5%;
+        margin-left: 15%;
         border-radius: 10px;
     }
 
@@ -765,7 +764,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .search-icon {
-        height: 30%;
+        height: 15%;
     }
 
     .main-nav {
