@@ -57,7 +57,7 @@ nav {
 
 .main-nav {
     align-items: center;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 1%;
 }
 
@@ -106,7 +106,7 @@ nav {
 }
 
 .banner-text {
-    margin-top: 20%;
+    margin-top: 22%;
     text-align: center;
     color: #FCF9F8;
     font-size: 25px;
@@ -184,8 +184,8 @@ nav {
 }
 
 .explore-frame img {
-    height: 258px;
-    width: 517px;
+    height: 250px;
+    width: 500px;
     border-radius: 20px;
     object-fit: cover;
     
@@ -195,7 +195,7 @@ nav {
 .special {
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-inline: 10%;
+    margin-inline: 5%;
     align-items: center;
 }
 
