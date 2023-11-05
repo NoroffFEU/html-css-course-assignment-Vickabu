@@ -754,15 +754,19 @@ footer > .foot-ul > .foot-ul-h2 {
         max-height: 10%;
         max-width: 40%;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 0;
     }
 
     .search-bar > input {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .search-icon {
         height: 50%;
+    }
+
+    .main-nav {
+        margin-left: 2%;
     }
 
 
@@ -781,11 +785,11 @@ footer > .foot-ul > .foot-ul-h2 {
     .login {
         margin-left: -10%;
         gap: 5px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .login img {
-        height: 15px;
+        height: 10px;
     }
 
 
@@ -802,7 +806,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .featreco {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 5%;
     }
 
