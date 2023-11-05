@@ -531,24 +531,24 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     main {
-        margin-inline: 5%;
+        margin-inline: 0%;
     }
 
     .method, .info {
-        font-size: 15px;
+        font-size: 10px;
     }
     
     
     .cancel-button, .complete-button {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #name, #email, #number, #date {
-        font-size: 15px;
+        font-size: 10px;
     }
     
     #date {
-        width: 60px;
+        width: 50px;
     }
 
 
