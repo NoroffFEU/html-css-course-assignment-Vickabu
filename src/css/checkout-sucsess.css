@@ -3,18 +3,11 @@
 body {
     margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #0C0E19;
-    color: #D9D9D9;
+    background-color: #A1B3C3;
+    color: #FCF9F8;
 }
 
-header {
-    background: url('../../assets/images/banner-home.jpg');
-    background-repeat: no-repeat;
-    height: 100%;
-    height: 786px;
-    background-size: cover;
-    background-position: center;
-}
+/*navbar*/
 
 nav {
     display: flex;
@@ -106,6 +99,38 @@ nav {
 }
 
 
+
+/*main sections*/
+
+main {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-inline: 13%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+}
+
+
+.textfield {
+    border-radius: 20px;
+    font-size: 30px;
+    margin-inline: 13%;
+    background-color: #646B7E;
+    padding: 2%;
+}
+
+
+.mainlogo {
+    height: 200px;
+}
+
+
+
+
+
 /*footer and lowbar*/
 
 footer {
@@ -178,14 +203,11 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
 
+
 /* media */
 
-
 @media (min-width: 769px) and (max-width: 1400px) {
-    header {
-        height: auto;
-    }
-        
+
     
     .logonav {
         max-height: 130px;
@@ -226,7 +248,6 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     
-
 
 
 
@@ -285,9 +306,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (min-width: 481px) and (max-width: 768px) {
 
-    header {
-        height: auto;
-    }
 
     .logonav {
         max-height: 90px;
@@ -346,9 +364,20 @@ footer > .foot-ul > .foot-ul-h2 {
         height: 15px;
     }
 
+
+    main {
+        margin-inline: 3%;
+    }
     
+    .textfield {
+        margin-inline: 4%;
+    }
+    
+    .mainlogo {
+        height: 150px;
+    }
 
-
+ 
 
     footer {
         height: 180px;
@@ -416,9 +445,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (max-width: 480px) {
 
-    header {
-        height: auto;
-    }
 
     nav {
         display: flex;
@@ -479,8 +505,17 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
 
+    main {
+        margin-inline: 3%;
+    }
     
-
+    .textfield {
+        margin-inline: 4%;
+    }
+    
+    .mainlogo {
+        height: 130px;
+    }
 
 
 
@@ -539,5 +574,10 @@ footer > .foot-ul > .foot-ul-h2 {
         width: 20px;
         height: 20px;
     }
-      
+    
+    
 }
+
+
+
+

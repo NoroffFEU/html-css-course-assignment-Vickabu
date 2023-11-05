@@ -10,68 +10,94 @@
 </head>
 
 <body>
-  <header>
-    <nav> 
-        <a href="index.html" class="logonav"><img class="logonav" src="assets/images/logo.png" alt="GameHub-Logo"></a>
-        <div class="main-nav">
-            <form action="products.html" class="search-bar">
-                <img class="search-icon" src="assets/search.svg" alt="search-icon">
-                <input type="text" placeholder="Search">
-            </form>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Store</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+
+    <header>
+        <nav> 
+            <a href="index.html" class="logonav"><img class="logonav" src="assets/images/logo.png" alt="GameHub-Logo"></a>
+            <div class="main-nav">
+                <form action="products.html" class="search-bar">
+                    <img class="search-icon" src="assets/search.svg" alt="search-icon">
+                    <input type="text" placeholder="Search">
+                </form>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Store</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="login">
+              <li><a href=""><img src="assets/heart.svg" class="Wishlist" alt="wishlist"></a></li>
+              <li>|</li>
+              <li><a href="">Login</a></li>
+            </ul>      
+        </nav>
+      </header>
+
+    <main>
+        <div class="payment-info">
+            <fieldset class="method">
+                <h1>Payment Method</h1>
+                <input type="checkbox">
+                <label for="checkbox">Google Pay</label>
+                <input type="checkbox">
+                <label for="checkbox">Paypal</label>
+                <input type="checkbox">
+                <label for="checkbox">Credit or Debit Card</label>
+            </fieldset>
+            <fieldset class="info">
+                <label for="name">Cardholder</label>
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email adress" required>
+                <p>Credit or Debit card info</p>
+                <input type="number" id="number" name="number" placeholder="1111 2222 3333 4444">
+                <input type="text" id="date" name="date" placeholder="20/11">
+                <input type="text" id="date" name="date" placeholder="123">
+                <input type="checkbox">
+                <label for="checkbox">Save this information</label>
+            </fieldset>
+            <a href="Forgelegend.html"><button class="cancel-button">Cancel</button></a>
+            <a href="checkout-sucsess.html"><button class="complete-button">Complete Order</button></a>
         </div>
-        <ul class="login">
-          <li><a href=""><img src="assets/heart.svg" class="Wishlist" alt="wishlist"></a></li>
-          <li>|</li>
-          <li><a href="">Login</a></li>
-        </ul>      
-    </nav>
-  </header>
 
-
-  <main>
-
-  </main>
-
-
-  <footer>
-    <a href="index.html" class="logofoot"><img class="logofoot" src="assets/images/logo.png" alt="GameHub-Logo"></a>
-        <ul class="foot-ul">
-            <li class="foot-ul-h2">Shortcuts</li>
-            <li class="foot-ul-li"><a href="">My Library</a></li>
-            <li class="foot-ul-li"><a href="">Giftcard</a></li>
-            <li class="foot-ul-li"><a href="">Wishlist</a></li>
-        </ul>
-        <ul class="foot-ul">
-            <li class="foot-ul-h2">Support</li>
-            <li class="foot-ul-li"><a href="contact.html">Contact Us</a></li>
-            <li class="foot-ul-li"><a href="">Complaint Form</a></li>
-            <li class="foot-ul-li"><a href="">Refund</a></li>
-        </ul>
-        <ul class="foot-ul">
-            <li class="foot-ul-h2">Information</li>
-            <li class="foot-ul-li"><a href="about.html">About Us</a></li>
-            <li class="foot-ul-li"><a href="">Terms and Conditions</a></li>
-            <li class="foot-ul-li"><a href="">Q/A</a></li>
-        </ul>
-  </footer>
-
-  <section class="low-bar">
-      <div class="icons">
-          <a href=""><img src="assets/facebook.png" class="face-logo" alt="facebook-logo"></a>
-          <a href=""><img src="assets/youtube.png" class="yt-logo" alt="youtube-logo"></a>
-          <a href=""><img src="assets/instagram.png" class="insta-logo" alt="instagram-logo"></a> 
-      </div>
-      <h3>Supporting gamers since 2018</h3>
-  </section>
+    
+    </main>
 
 
 
+
+    <footer>
+      <a href="index.html" class="logofoot"><img class="logofoot" src="assets/images/logo.png" alt="GameHub-Logo"></a>
+          <ul class="foot-ul">
+              <li class="foot-ul-h2">Shortcuts</li>
+              <li class="foot-ul-li"><a href="">My Library</a></li>
+              <li class="foot-ul-li"><a href="">Giftcard</a></li>
+              <li class="foot-ul-li"><a href="">Wishlist</a></li>
+          </ul>
+          <ul class="foot-ul">
+              <li class="foot-ul-h2">Support</li>
+              <li class="foot-ul-li"><a href="contact.html">Contact Us</a></li>
+              <li class="foot-ul-li"><a href="">Complaint Form</a></li>
+              <li class="foot-ul-li"><a href="">Refund</a></li>
+          </ul>
+          <ul class="foot-ul">
+              <li class="foot-ul-h2">Information</li>
+              <li class="foot-ul-li"><a href="about.html">About Us</a></li>
+              <li class="foot-ul-li"><a href="">Terms and Conditions</a></li>
+              <li class="foot-ul-li"><a href="">Q/A</a></li>
+          </ul>
+    </footer>
+
+    <section class="low-bar">
+        <div class="icons">
+            <a href=""><img src="assets/facebook.png" class="face-logo" alt="facebook-logo"></a>
+            <a href=""><img src="assets/youtube.png" class="yt-logo" alt="youtube-logo"></a>
+            <a href=""><img src="assets/instagram.png" class="insta-logo" alt="instagram-logo"></a> 
+        </div>
+        <h3>Supporting gamers since 2018</h3>
+    </section>
 
 </body>
+
 </html>

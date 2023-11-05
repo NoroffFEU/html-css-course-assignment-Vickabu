@@ -3,18 +3,11 @@
 body {
     margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #0C0E19;
-    color: #D9D9D9;
+    background-color: #A1B3C3;
+    color: #FCF9F8;
 }
 
-header {
-    background: url('../../assets/images/banner-home.jpg');
-    background-repeat: no-repeat;
-    height: 100%;
-    height: 786px;
-    background-size: cover;
-    background-position: center;
-}
+/*navbar*/
 
 nav {
     display: flex;
@@ -106,6 +99,63 @@ nav {
 }
 
 
+
+/*main sections*/
+
+main {
+    text-align: center;
+    margin-inline: 25%;
+    
+}
+
+.payment-info {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(150, 149, 149);
+    border-radius: 10px;
+    padding: 4%;
+}
+
+.method {
+    background-color: #1B203D;
+    font-size: 25px;
+}
+
+.info {
+    background-color: #646B7E;
+    font-size: 25px;
+    text-align: left;
+}
+
+.cancel-button {
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.complete-button {
+    font-size: 25px;
+    border-radius: 10px;
+    color: #FCF9F8;
+    background-color: #1B203D;
+    padding: 1%;
+}
+
+#name, #email, #number, #date {
+    font-size: 20px;
+    display: block;
+}
+
+#date {
+    width: 70px;
+}
+
+
+
+
+
+
 /*footer and lowbar*/
 
 footer {
@@ -178,14 +228,11 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
 
+
 /* media */
 
-
 @media (min-width: 769px) and (max-width: 1400px) {
-    header {
-        height: auto;
-    }
-        
+
     
     .logonav {
         max-height: 130px;
@@ -226,7 +273,6 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     
-
 
 
 
@@ -285,9 +331,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (min-width: 481px) and (max-width: 768px) {
 
-    header {
-        height: auto;
-    }
 
     .logonav {
         max-height: 90px;
@@ -346,9 +389,10 @@ footer > .foot-ul > .foot-ul-h2 {
         height: 15px;
     }
 
-    
 
 
+
+ 
 
     footer {
         height: 180px;
@@ -416,9 +460,6 @@ footer > .foot-ul > .foot-ul-h2 {
 
 @media (max-width: 480px) {
 
-    header {
-        height: auto;
-    }
 
     nav {
         display: flex;
@@ -479,7 +520,6 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
 
-    
 
 
 
@@ -542,3 +582,7 @@ footer > .foot-ul > .foot-ul-h2 {
     
     
 }
+
+
+
+
