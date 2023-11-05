@@ -561,7 +561,7 @@ footer > .foot-ul > .foot-ul-h2 {
     
 
     .login {
-        margin-left: -15%;
+        margin-left: -20%;
         display: flex;
         gap: 5px;
         font-size: 15px;
@@ -667,7 +667,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     footer {
-        height: 200px;
+        height: 180px;
         background-color: #646B7E;
         gap: 0%;
         color: #FCF9F8;
@@ -689,8 +689,8 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .logofoot{
-        max-height: 90px;
-        padding-left: 1%;
+        max-height: 85px;
+        padding-left: 0;
         padding-top: 0%;
         cursor: pointer;
     }
@@ -755,7 +755,7 @@ footer > .foot-ul > .foot-ul-h2 {
         max-width: 40%;
         margin-top: 2%;
         margin-bottom: 0;
-        margin-left: 15%;
+        margin-left: 25%;
         border-radius: 10px;
     }
 
@@ -764,7 +764,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .search-icon {
-        height: 15%;
+        height: 15px;
     }
 
     .main-nav {
