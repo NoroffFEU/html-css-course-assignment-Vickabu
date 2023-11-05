@@ -499,9 +499,10 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     .intro-text {
-        font-size: 15px;
-        margin-left: 2%;
+        font-size: 12px;
+        margin-left: 4%;
         margin-right: 4%;
+        max-width: 95%;
     }
 
     .intro-text h2 {
@@ -659,7 +660,7 @@ footer > .foot-ul > .foot-ul-h2 {
         font-size: 5px;
     }
 
-    .login, a {
+    .login > li > a {
         font-size: 5px;
     } 
 
