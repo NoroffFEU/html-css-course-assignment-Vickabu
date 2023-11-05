@@ -226,15 +226,15 @@ nav {
 }
 
 .product-cover {
-    height: 451px;
-    width: 351px;
+    height: 421px;
+    width: 321px;
     border-radius: 10px;
 }
 
 
 .buy-button {
     width: 100%;
-    max-width: 351px;
+    max-width: 321px;
     max-height: 38px;
     background-color: #D9D9D9;
     color: #1b203d;
@@ -756,6 +756,7 @@ footer > .foot-ul > .foot-ul-h2 {
         margin-top: 2%;
         margin-bottom: 0;
         margin-left: 2%;
+        border-radius: 10px;
     }
 
     .search-bar > input {
@@ -763,19 +764,19 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .search-icon {
-        height: 50%;
+        height: 30%;
     }
 
     .main-nav {
-        margin-left: -10%;
+        margin-left: -5%;
     }
 
 
     .main-nav > ul {
         margin-top: 5px;
-        font-size: 15px;
+        font-size: 10px;
         font-weight:800; 
-        margin-left: -10%;      
+        margin-left: -5%;      
     }
     
     .main-nav > ul > li > a  {
@@ -784,7 +785,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     .login {
-        margin-left: -20%;
+        margin-left: -10%;
         gap: 5px;
         font-size: 10px;
     }
@@ -924,7 +925,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .icons {
-        margin-left: 30%;
+        margin-left: 35%;
         margin-top: 1%;
     }
 
