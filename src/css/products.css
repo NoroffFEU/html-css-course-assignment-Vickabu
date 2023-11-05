@@ -478,8 +478,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     .login > li > a {
-        color: #1B203D;
-        font-weight: bold;
+        font-size: 15px;
     }
     
     .login img {
@@ -488,7 +487,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .banner-text {
         font-size: 10px;
-        margin-top: 6%;
+        margin-top: 8%;
         padding: 4%;
     }
 
@@ -507,12 +506,11 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .intro-text h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .left-content {
         font-size: 20px;
-        padding-right: 4%;
     }
 
     .product-cover {
@@ -657,9 +655,14 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .login {
         margin-left: -5%;
-        gap: 5px;
-        font-size: 10px;
+        gap: 10px;
+        font-size: 5px;
     }
+
+    .login, a {
+        font-size: 10px;
+    } 
+
 
     .login img {
         height: 10px;
@@ -668,7 +671,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
     .banner-text {
         font-size: 10px;
-
+        margin-top: 4%;
     }
 
 
@@ -693,6 +696,10 @@ footer > .foot-ul > .foot-ul-h2 {
     .left-content {
         font-size: 15px;
         padding-right: 4%;
+    }
+
+    .left-content h2 {
+        font-size: 15px;
     }
 
     .product-cover {
