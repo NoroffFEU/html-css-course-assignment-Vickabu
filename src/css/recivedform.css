@@ -520,7 +520,7 @@ footer > .foot-ul > .foot-ul-h2 {
 
 
     .login {
-        margin-left: -10%;
+        margin-left: -5%;
         gap: 5px;
         font-size: 10px;
     }
@@ -542,7 +542,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     .mainlogo {
-        height: 150px;
+        height: 130px;
     }
     
     form > h1 {
@@ -550,20 +550,20 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     label {
-        font-size: 25px;
+        font-size: 15px;
     }
     
     input {
-        font-size: 25px;
+        font-size: 15px;
     }
     
     textarea {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     button {
-        font-size: 20px;
-        max-width: 240px;
+        font-size: 15px;
+        max-width: 220px;
     }
 
 
