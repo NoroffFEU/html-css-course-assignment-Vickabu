@@ -691,7 +691,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .intro-text h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .left-content {
@@ -704,8 +704,9 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
     .product-cover {
-        height: 150px;
-        width: 90px;
+        height: 120px;
+        width: 60px;
+        border-radius: 5px;
     }
 
     .ad-to-wishlist, .shopping-bag {
@@ -718,7 +719,7 @@ footer > .foot-ul > .foot-ul-h2 {
     }
     
     .outro-text {
-        font-size: 15px;
+        font-size: 10px;
 
     }
 
