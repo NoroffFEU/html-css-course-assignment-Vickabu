@@ -657,11 +657,11 @@ footer > .foot-ul > .foot-ul-h2 {
     .login {
         margin-left: -5%;
         gap: 10px;
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .login > li > a {
-        font-size: 5px;
+        font-size: 10px;
     } 
 
 
@@ -687,7 +687,7 @@ footer > .foot-ul > .foot-ul-h2 {
     .intro-text {
         font-size: 15px;
         margin-left: 2%;
-        margin-right: 4%;
+        margin-right: 5%;
     }
 
     .intro-text h2 {
