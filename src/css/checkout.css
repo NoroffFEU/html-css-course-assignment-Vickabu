@@ -389,6 +389,9 @@ footer > .foot-ul > .foot-ul-h2 {
         height: 15px;
     }
 
+    main {
+        margin-inline: 10%;
+    }
 
     .method, .info, .cancel-button, .complete-button, #name, #email, #number, #date {
         font-size: 15px;
@@ -527,6 +530,9 @@ footer > .foot-ul > .foot-ul-h2 {
     }
 
 
+    main {
+        margin-inline: 5%;
+    }
 
     .method, .info {
         font-size: 15px;
