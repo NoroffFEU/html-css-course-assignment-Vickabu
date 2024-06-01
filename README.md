@@ -1,34 +1,100 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12166689&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment
+
+# HTML & CSS Course Assignment - Gamehub
+
+![image](https://github.com/NoroffFEU/html-css-course-assignment-Vickabu/blob/main/assets/images/logo.png?raw=true)
+
+## Overview
+
+Gamehub is a fictional modern, accessible, and responsive website designed to provide a comprehensive platform for gamers. The site aims to offer key information, engaging content, and an intuitive user experience.
+
+
+## Description
+
+The Gamehub project is focused on creating an engaging and user-friendly web presence for gamers. The website includes various pages that provide information about fictional games, gaming news, and resources for the gaming community.
+
+### Key Features 
+
+- Home Page: Showcases key information and impactful imagery about popular games.
+- Games Page: Lists available games with detailed descriptions.
+- About Page: Provides information about Gamehub and its mission.
+- Contact Page: Displays the contact form, address, phone number, and opening hours.
+- Login Page: Mimics a login functionality where users can sign in to their accounts.
+
+## Built With
+
+- [HTML]
+- [CSS]
+
+## Getting Started
+
+### Installing
+
+To get a local copy up and running, follow these simple steps.
+
+1. Clone the repo:
+
+```bash
+gh repo clone NoroffFEU/html-css-course-assignment-Vickabu
+```
+
+2. Navigate to the project directory:
+
+```
+cd html-css-course-assignment-Vickabu
+```
+
+### Running
+
+You can use a local server to serve the files. For example, using live-server (if you have Node.js installed):
+
+1. Install live-server globally:
+```bash
+npm install -g live-server
+```
+2. Run live-server in the project directory:
+```bash
+npm install -g live-server
+```
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+## Contact
+
+- More information will come soon, meanwhile contact Vickabu on GitHub if you have any questions.
+
+### Project Information
 
 ## Brief
+Design and build a modern, accessible, and responsive website for Gamehub. The site should include key pages and functionalities as outlined in the project requirements.
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+## User Stories
+- Visitors can view a home page with key information and impactful imagery.
+- Visitors can view a games page with a list of available games.
+- Visitors can view an about page with information about Gamehub.
+- Visitors can view a contact page with the address, phone number, opening hours, and contact form.
+- Visitors can view a login page with mimicked login functionality.
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+## Requirements
+- No CSS frameworks.
+- Use semantic HTML and follow DRY principles in CSS.
+- Ensure the website is fully responsive and accessible.
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+## Limitations
+- No unlicensed imagery.
+- No JavaScript for core functionalities.
 
-## Process
+## Acknowledgments
+- Images from Pixabay
+- Icons from Heroicons and SVG Repo
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
-
-## Delivery
-
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+  
